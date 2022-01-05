@@ -271,6 +271,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Memory Optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.max_starting_bg=1 \
     ro.lmk.use_psi=false \
     ro.lmk.critical=0 \
     ro.lmk.low=950 \
