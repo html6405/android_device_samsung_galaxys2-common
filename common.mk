@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES := \
     $(COMMON_PATH)/rootdir/init.smdk4210.usb.rc:root/init.smdk4210.usb.rc \
     $(COMMON_PATH)/rootdir/init.smdk4210.rc:root/init.smdk4210.rc
 
+# init.d
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/tweaks.rc:system/vendor/etc/init/tweaks.rc
+
 # File system table
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/fstab.smdk4210:root/fstab.smdk4210 \
