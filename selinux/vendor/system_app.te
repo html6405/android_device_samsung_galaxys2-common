@@ -11,3 +11,4 @@ allow system_app installd:binder call;
 allow system_app netd:binder call;
 allow system_app vold:binder call;
 allow system_app iorapd:binder call;
+allow system_app hal_light_default:binder call;
