@@ -338,7 +338,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwpa_client \
     macloader \
-    WifiOverlay_S2 \
+    WifiOverlayGalaxyS2 \
     wpa_supplicant \
     wpa_supplicant.conf
 
