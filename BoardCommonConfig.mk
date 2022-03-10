@@ -185,6 +185,8 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxys2-common/recover
 BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/galaxys2-common/recovery/graphics.c
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
 BOARD_USES_MMCUTILS := true
+BOARD_USES_FULL_RECOVERY_IMAGE := true
+BOARD_NO_RECOVERY_PATCH := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SUPPRESS_EMMC_WIPE := true
@@ -198,7 +200,6 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/galaxys2-common/include
 # Charging mode
 BOARD_BATTERY_DEVICE_NAME := "battery"
 BOARD_CHARGER_SHOW_PERCENTAGE := true
-BOARD_USES_FULL_RECOVERY_IMAGE := true
 WITH_LINEAGE_CHARGER := false
 
 # Boot.img
